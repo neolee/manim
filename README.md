@@ -1,1 +1,1 @@
-A `manimgl` and other things playground.
+A `manim` playground.
