@@ -399,10 +399,16 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "manimgl" },
+    { name = "numpy" },
+    { name = "pillow" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "manimgl", specifier = ">=1.7.2" }]
+requires-dist = [
+    { name = "manimgl" },
+    { name = "numpy" },
+    { name = "pillow" },
+]
 
 [[package]]
 name = "manimgl"
